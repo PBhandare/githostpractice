@@ -2,7 +2,7 @@ import './App.css';
 import {useForm} from 'react-hook-form';
 
 function App() {
-  const {register,  handleSumbit} = useForm()
+  const {register,  handleSubmit} = useForm()
   const onSubmit = (data) => {
     console.log(data)
   }
